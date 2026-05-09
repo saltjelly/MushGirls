@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<AlienRace.ThingDef_AlienRace ParentName="Human">
+    <defName>Porian</defName>
+    <label>Porian</label>
+    <description>버섯을 연상시키는 미소녀 외계 종족. 습하고 어두운 환경을 좋아한다.</description>
+
+
+        <alienRace>
+            <generalSettings></generalSettings>
+            <graphicPaths></graphicPaths>
+            <styleSettings></styleSettings>
+            <thoughtSettings></thoughtSettings>
+            <relationSettings></relationSettings>
+            <raceRestriction></raceRestriction>
+            <compatibility></compatibility>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+
+</Defs>

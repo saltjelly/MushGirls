@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>MushGirls</name>
+  <author>saltjelly</author>
+  <packageId>saltjelly.mushgirls</packageId>
+
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+
+
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+		</li>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+		</li>
+	</modDependencies>
+
+ 	<loadAfter>
+	   <li>brrainz.harmony</li>
+	   <li>erdelf.HumanoidAlienRaces</li>
+	 </loadAfter>
+</ModMetaData>

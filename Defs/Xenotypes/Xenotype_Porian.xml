@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>PorianXenotype</defName>
+    <label>Porian</label>
+    <description>버섯을 모티브로 한 습하고 어두운 환경에 적응한 미소녀 외계 종족.</description>
+    <descriptionShort>버섯 미소녀 Porian</descriptionShort>
+    
+    <inheritable>true</inheritable>   <!-- 자식에게 유전됨 -->
+    
+    <genes>
+      <!-- === 당신이 원하는 유전자 목록 === -->
+          <li>Mood_Optimist</li>                    <!-- 행복함 -->
+          <li>MaxTemp_SmallDecrease</li>            <!-- 열기에 약함 -->
+          <li>ToxResist_Total</li>          <!-- 독성 면역 (강한 버전) -->
+          <li>UVSensitivity_Mild</li>              <!-- 자외선 민감성 -->
+          <li>FireTerror</li>               <!-- 불 공포증 -->
+          <li>Libido_High</li>               <!-- 높은 성욕 -->
+          <li>DarkVision</li>               <!-- 어둠 투시 -->
+          <li>CaveDweller</li>            <!-- 실내 거주자 (추정) -->
+          <li>AptitudeTerrible_Animals</li>               <!-- 끔찍한 조련 -->
+          <li>AptitudeTerrible_Social</li>               <!-- 끔찍한 사교 -->
+          <li>AptitudeRemarkable_Plants</li>          <!-- 뛰어난 원예 -->
+          <li>AptitudeStrong_Medicine</li>         <!-- 좋은 의학 -->
+
+    </genes>
+
+	<iconPath>UI/Xenotypes/PorianXenotype</iconPath>
+
+
+  </XenotypeDef>
+
+
+</Defs>
