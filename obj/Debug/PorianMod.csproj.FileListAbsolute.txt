@@ -1,0 +1,4 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\obj\Debug\PorianMod.csproj.AssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\obj\Debug\PorianMod.GeneratedMSBuildEditorConfig.editorconfig
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\obj\Debug\PorianMod.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\obj\Debug\PorianMod.sourcelink.json
