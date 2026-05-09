@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 포리안 버섯 적응 유전자 -->
+  <GeneDef>
+    <defName>Porian_FungalAffinity</defName>
+    <label>fungal affinity</label>
+    <description>포리안의 몸은 균사체와 강하게 연결되어 있다. Fungal gravel 위에서는 이동속도가 크게 증가하지만, 다른 지형에서는 약간 느려진다.</description>
+    
+    <!-- 아이콘은 나중에 만들면 넣어요. 지금은 오류 안 나게 주석 -->
+    <!-- <iconPath>UI/Icons/Genes/Porian_FungalAffinity</iconPath> -->
+    
+    <!--<displayCategory>General</displayCategory>-->
+    <displayOrderInCategory>100</displayOrderInCategory>
+    
+    <biostatMet>0</biostatMet>
+    <biostatCpx>1</biostatCpx>
+    
+    <!-- 기본 이동속도: 다른 땅에서는 약간 느림 -->
+    <statOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </statOffsets>
+    
+  </GeneDef>
+
+</Defs>
