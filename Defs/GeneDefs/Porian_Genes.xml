@@ -21,6 +21,14 @@
       <MoveSpeed>-0.08</MoveSpeed>
     </statOffsets>
     
+    <hediffGivers>
+      <li Class="HediffGiver_Constant">
+        <hediff>Porian_FungalBoost</hediff>
+        <severity>0</severity>
+      </li>
+    </hediffGivers>
+
+
   </GeneDef>
 
 </Defs>
