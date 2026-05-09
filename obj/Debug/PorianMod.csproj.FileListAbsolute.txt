@@ -2,3 +2,7 @@ D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\obj\Debug\PorianMod.csp
 D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\obj\Debug\PorianMod.GeneratedMSBuildEditorConfig.editorconfig
 D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\obj\Debug\PorianMod.csproj.CoreCompileInputs.cache
 D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\obj\Debug\PorianMod.sourcelink.json
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\Assemblies\PorianMod.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\Assemblies\PorianMod.pdb
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\obj\Debug\PorianMod.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\MushGirls\obj\Debug\PorianMod.pdb
