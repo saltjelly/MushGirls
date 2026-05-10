@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- 포리안 버섯 적응 유전자 -->
+	<!--  Porian_FungalAffinity GeneDef 포리안 종족의 핵심 컨셉 유전자 (버섯/균사 친화력) -->
 	<GeneDef>
+
+		<!-- defName: 다른 XML(Xenotype, Hediff 등)에서 참조할 때 사용하는 이름 -->
 		<defName>Porian_FungalAffinity</defName>
-		<label>fungal affinity</label>
-		<description>포리안의 몸은 균사체와 깊이 연결되어 있다. Fungal gravel 위에서는 이동속도가 크게 증가하지만, 다른 지형에서는 약간 느려진다.</description>
 
-		<biostatMet>0</biostatMet>
-		<biostatCpx>1</biostatCpx>
+		<!-- label: 게임 내에 표시되는 유전자 이름 (한글 추천) -->
+		<label>균사 친화력</label>
 
-		<!-- 다른 땅에서는 약간 느림 -->
+		<!-- description: 유전자 설명 (플레이어가 볼 수 있는 부분) -->
+		<description>포리안의 몸은 균사체와 깊이 연결되어 있다. Fungal gravel(균사 자갈) 위에서는 이동속도가 크게 증가하지만, 다른 지형에서는 약간 느려진다.</description>
+
+		<!-- biostat : 복잡도와 대사 관련 (Xenotype 제작 시 필요) -->
+		<biostatMet>0</biostatMet>     <!-- 대사 비용 -->
+		<biostatCpx>1</biostatCpx>     <!-- 복잡도 (값이 클수록 Xenotype 제작 난이도 ↑) -->
+
+		<!-- statOffsets : 기본 능력치 변경 -->
 		<statOffsets>
+			<!-- 기본 이동속도 약간 감소 (균사 지형 외에서는 불리함) -->
 			<MoveSpeed>-0.08</MoveSpeed>
 		</statOffsets>
+
+	
+
+		
+		<statFactors></statFactors> 	<!-- 배율로 적용할 때 사용 -->
+		<hediffGivers></hediffGivers>         <!-- 특정 Hediff(질환) 부여 -->
+		    <thoughts>
+		      <li>Porian_FungalAffinity</li>
+		    </thoughts>            
+			<!-- 특정 생각(Thought) 추가 -->
+		<specialAbilities></specialAbilities> <!-- 특수 능력 -->
+		
+
 
 	</GeneDef>
 

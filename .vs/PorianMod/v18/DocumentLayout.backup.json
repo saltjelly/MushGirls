@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\defs\\thingdefs\\porian_racedef.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:defs\\thingdefs\\porian_racedef.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\defs\\thoughtdefs\\thought_porianfungalaffinity.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:defs\\thoughtdefs\\thought_porianfungalaffinity.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\defs\\genedefs\\porian_genes.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:defs\\genedefs\\porian_genes.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\source\\thoughtworker_fungalaffinity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:source\\thoughtworker_fungalaffinity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\defs\\xenotypes\\xenotype_porian.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:defs\\xenotypes\\xenotype_porian.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\defs\\thoughtdefs\\thought_porianfungalaffinity.xml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:defs\\thoughtdefs\\thought_porianfungalaffinity.xml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Porian_RaceDef.xml",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\ThingDefs\\Porian_RaceDef.xml",
+              "RelativeDocumentMoniker": "Defs\\ThingDefs\\Porian_RaceDef.xml",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\ThingDefs\\Porian_RaceDef.xml",
+              "RelativeToolTip": "Defs\\ThingDefs\\Porian_RaceDef.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-10T14:03:52.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Thought_PorianFungalAffinity.xml",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\ThoughtDefs\\Thought_PorianFungalAffinity.xml",
+              "RelativeDocumentMoniker": "Defs\\ThoughtDefs\\Thought_PorianFungalAffinity.xml",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\ThoughtDefs\\Thought_PorianFungalAffinity.xml",
+              "RelativeToolTip": "Defs\\ThoughtDefs\\Thought_PorianFungalAffinity.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-10T14:01:55.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Porian_Genes.xml",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\GeneDefs\\Porian_Genes.xml",
+              "RelativeDocumentMoniker": "Defs\\GeneDefs\\Porian_Genes.xml",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\GeneDefs\\Porian_Genes.xml",
+              "RelativeToolTip": "Defs\\GeneDefs\\Porian_Genes.xml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-10T13:43:28.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThoughtWorker_FungalAffinity.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Source\\ThoughtWorker_FungalAffinity.cs",
+              "RelativeDocumentMoniker": "Source\\ThoughtWorker_FungalAffinity.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Source\\ThoughtWorker_FungalAffinity.cs",
+              "RelativeToolTip": "Source\\ThoughtWorker_FungalAffinity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T13:40:46.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Thought_PorianFungalAffinity.xml",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\ThoughtDefs\\Thought_PorianFungalAffinity.xml",
+              "RelativeDocumentMoniker": "Defs\\ThoughtDefs\\Thought_PorianFungalAffinity.xml",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\ThoughtDefs\\Thought_PorianFungalAffinity.xml",
+              "RelativeToolTip": "Defs\\ThoughtDefs\\Thought_PorianFungalAffinity.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-10T13:40:12.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Xenotype_Porian.xml",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\Xenotypes\\Xenotype_Porian.xml",
+              "RelativeDocumentMoniker": "Defs\\Xenotypes\\Xenotype_Porian.xml",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\Xenotypes\\Xenotype_Porian.xml",
+              "RelativeToolTip": "Defs\\Xenotypes\\Xenotype_Porian.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-10T13:25:42.205Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

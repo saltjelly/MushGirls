@@ -1,35 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <XenotypeDef>
-    <defName>PorianXenotype</defName>
-    <label>Porian</label>
-    <description>버섯을 모티브로 한 습하고 어두운 환경에 적응한 미소녀 외계 종족.</description>
-    <descriptionShort>버섯 미소녀 Porian</descriptionShort>
-    
-    <inheritable>true</inheritable>   <!-- 자식에게 유전됨 -->
-    
-    <genes>
-      <!-- === 당신이 원하는 유전자 목록 === -->
-          <li>Mood_Optimist</li>                    <!-- 행복함 -->
-          <li>MaxTemp_SmallDecrease</li>            <!-- 열기에 약함 -->
-          <li>ToxResist_Total</li>          <!-- 독성 면역 (강한 버전) -->
-          <li>UVSensitivity_Mild</li>              <!-- 자외선 민감성 -->
-          <li>FireTerror</li>               <!-- 불 공포증 -->
-          <li>Libido_High</li>               <!-- 높은 성욕 -->
-          <li>DarkVision</li>               <!-- 어둠 투시 -->
-          <li>CaveDweller</li>            <!-- 실내 거주자 (추정) -->
-          <li>AptitudeTerrible_Animals</li>               <!-- 끔찍한 조련 -->
-          <li>AptitudeTerrible_Social</li>               <!-- 끔찍한 사교 -->
-          <li>AptitudeRemarkable_Plants</li>          <!-- 뛰어난 원예 -->
-          <li>AptitudeStrong_Medicine</li>         <!-- 좋은 의학 -->
+	<!-- 
+  XenotypeDef : HAR에서 "종족 유전자형(Xenotype)"을 정의하는 파일
+  포리안 종족의 핵심 특징(버섯미소녀)을 여기서 대부분 결정함
+  -->
+	<XenotypeDef>
 
-    </genes>
+		<!-- defName : PawnKindDef와 Race에서 참조하는 이름 (정확히 일치해야 함) -->
+		<defName>PorianXenotype</defName>
 
-	<iconPath>UI/Xenotypes/PorianXenotype</iconPath>
+		<!-- label : 게임 내 표시 이름 -->
+		<label>포리안</label>
 
+		<!-- description : 상세 설명 -->
+		<description>버섯을 모티브로 한 습하고 어두운 환경에 적응한 귀여운 미소녀 외계 종족. 균사체와 강한 친화력을 가졌다.</description>
+		<descriptionShort>버섯 미소녀 Porian</descriptionShort>
 
-  </XenotypeDef>
+		<!-- inheritable : true면 자식에게 유전됨 (보통 true 추천) -->
+		<inheritable>true</inheritable>
 
+		<!-- genes : 이 Xenotype이 가지는 유전자 목록 (여기가 핵심) -->
+		<genes>
+			<!-- === 포리안 컨셉에 맞는 기본 유전자 === -->
+			<li>Mood_Optimist</li>
+			<!-- 항상 밝고 긍정적 (미소녀 컨셉) -->
+			<li>DarkVision</li>
+			<!-- 어둠 속 시야 (버섯처럼 어두운 곳 좋아함) -->
+			<li>CaveDweller</li>
+			<!-- 동굴/실내 적응 -->
+
+			<!-- 새로 추가 요청: Porian_FungalAffinity (버섯/균사 친화력) -->
+			<li>Porian_FungalAffinity</li>
+			<!-- 포리안 전용 균사 친화력 (나중에 GeneDef 만들어야 함) -->
+
+			<!-- 환경/생존 관련 -->
+			<li>ToxResist_Total</li>
+			<!-- 독성 완전 저항 (버섯이라 독에 강함) -->
+			<li>MaxTemp_SmallDecrease</li>
+			<!-- 더운 환경에 약함 (습하고 서늘한 곳 선호) -->
+			<li>UVSensitivity_Mild</li>
+			<!-- sunlight(자외선)에 약함 -->
+
+			<!-- 성격/특성 -->
+			<li>FireTerror</li>
+			<!-- 불 공포증 (버섯은 불에 약함) -->
+			<li>Libido_High</li>
+			<!-- 높은 성욕 (미소녀 컨셉 강화) -->
+
+			<!-- 능력치 (Aptitude) -->
+			<li>AptitudeRemarkable_Plants</li>
+			<!-- 식물(버섯 재배)에 매우 뛰어남 -->
+			<li>AptitudeStrong_Medicine</li>
+			<!-- 의학 능력 좋음 (버섯 약재 등) -->
+			<li>AptitudeTerrible_Animals</li>
+			<!-- 동물 다루기 매우 서툼 -->
+			<li>AptitudeTerrible_Social</li>
+			<!-- 사교에 약함 (조용한 버섯 컨셉) -->
+
+		</genes>
+
+		<!-- 아이콘 경로 (Textures/UI/Xenotypes 폴더에 이미지 넣어야 보임) -->
+		<iconPath>UI/Xenotypes/PorianXenotype</iconPath>
+
+	</XenotypeDef>
 
 </Defs>

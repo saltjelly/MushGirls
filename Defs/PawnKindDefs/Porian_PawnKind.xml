@@ -1,24 +1,45 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- 
+  PawnKindDef : 게임에서 실제로 스폰(등장)시키는 "직업/유형"을 정의하는 파일
+  ParentName="BasePlayerPawnKind" : 플레이어 식민지 주민 기본 설정을 물려받음
+  -->
 	<PawnKindDef ParentName="BasePlayerPawnKind">
 
-		  <defName>PorianColonist</defName>
-		  <label>poriancolonist</label>
-		  <race>Porian</race>
+		<!-- defName : 코드와 다른 XML에서 이 PawnKind를 부를 때 사용하는 고유 이름 -->
+		<defName>PorianColonist</defName>
 
-		  <defaultFactionType>PlayerColony</defaultFactionType>
+		<!-- label : 게임 내에서 표시되는 이름 (한글 추천) -->
+		<label>포리안 정착민</label>
 
+		<!-- race : 이 PawnKind가 어떤 종족인지 연결 (RaceDef의 defName과 정확히 일치해야 함) -->
+		<race>Porian</race>
 
-<xenotypeSet>
-    <xenotypeChances>
-        <PorianXenotype>1</PorianXenotype>
-    </xenotypeChances>
-</xenotypeSet>
+		<!-- defaultFactionType : 플레이어가 조종하는 식민지 소속으로 설정 -->
+		<defaultFactionType>PlayerColony</defaultFactionType>
 
+		<!-- xenotypeSet : HAR + Xenotype(유전자형)과 연동하는 부분 -->
+		<xenotypeSet>
+			<xenotypeChances>
+				<!-- PorianXenotype이 100%로 나오도록 설정 (나중에 XenotypeDef 만들면 연결) -->
+				<PorianXenotype>1</PorianXenotype>
+			</xenotypeChances>
+		</xenotypeSet>
 
-		  <initialResistanceRange>13~21</initialResistanceRange>
-		  <combatPower>30</combatPower>
+		<!-- initialResistanceRange : 포로로 잡았을 때 저항 수치 범위 (숫자가 낮을수록 쉽게 굴복) -->
+		<initialResistanceRange>13~21</initialResistanceRange>
+
+		<!-- combatPower : 전투력 (30은 매우 약한 수준. 버섯미소녀 컨셉에 맞게 낮게 유지) -->
+		<combatPower>30</combatPower>
+
+		<!-- 아래는 선택적으로 추가할 수 있는 유용한 설정들 (나중에 필요할 때 넣으세요) -->
+		<!-- 
+    <backstoryCategory>Porian</backstoryCategory>        ← 포리안 전용 배경스토리
+    <maxGenerationAge>80</maxGenerationAge>              ← 최대 생성 나이
+    <gearGeneration>                                     ← 시작 장비 설정 가능
+    -->
+
 	</PawnKindDef>
 
 </Defs>
