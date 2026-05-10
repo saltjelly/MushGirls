@@ -6,18 +6,23 @@
 		<label>균사 지형의 포근함</label>
 		<description>발밑이 부드러운 균사로 가득 차 있다. 몸이 가볍고 마음이 편안하다.</description>
 
-		<!-- ThoughtDef에서는 statOffsets를 이렇게 씁니다 -->
-		<statOffsets>
-			<MoveSpeed>0.22</MoveSpeed>
-			<!-- 22% 증가 (조정 가능) -->
-		</statOffsets>
-
-		<!-- Mood 보너스 -->
-		<moodOffset>10</moodOffset>
-
+		
 		<durationDays>0</durationDays>
 		<stackLimit>1</stackLimit>
 		<workerClass>Porian.ThoughtWorker_FungalAffinity</workerClass>
+
+		<stages>
+			<li>
+				<label>균사 지형의 포근함</label>
+				<statOffsets>
+					<MoveSpeed>0.22</MoveSpeed>
+					<!-- 22% 증가 -->
+				</statOffsets>
+				<moodOffset>10</moodOffset>
+			</li>
+		</stages>
+
+
 	</ThoughtDef>
 
 </Defs>

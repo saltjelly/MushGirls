@@ -36,12 +36,6 @@
 			<graphicPaths>
 			</graphicPaths>
 
-			<!-- 아래 태그들은 지금은 비워두거나 최소한만 유지해도 됩니다 -->
-			<styleSettings></styleSettings>
-			<thoughtSettings></thoughtSettings>
-			<relationSettings></relationSettings>
-			<raceRestriction></raceRestriction>
-			<compatibility></compatibility>
 
 		</alienRace>
 

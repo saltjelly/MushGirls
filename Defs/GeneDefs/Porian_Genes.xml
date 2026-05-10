@@ -23,17 +23,12 @@
 			<MoveSpeed>-0.08</MoveSpeed>
 		</statOffsets>
 
-	
-
-		
-		<statFactors></statFactors> 	<!-- 배율로 적용할 때 사용 -->
-		<hediffGivers></hediffGivers>         <!-- 특정 Hediff(질환) 부여 -->
+		<!-- 특정 생각(Thought) 추가 -->
 		    <thoughts>
 		      <li>Porian_FungalAffinity</li>
 		    </thoughts>            
-			<!-- 특정 생각(Thought) 추가 -->
-		<specialAbilities></specialAbilities> <!-- 특수 능력 -->
-		
+
+
 
 
 	</GeneDef>
