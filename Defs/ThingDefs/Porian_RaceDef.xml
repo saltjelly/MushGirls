@@ -14,28 +14,24 @@
 		<!-- description: 종족 설명 -->
 		<description>버섯을 연상시키는 미소녀 외계 종족. 습하고 어두운 환경을 좋아한다.</description>
 		<!-- HAR 핵심 설정 구간 -->
+
+		<race>
+
+			<!-- 몸 크기 (버섯미소녀 컨셉 → 인간보다 살짝 작게) -->
+			<baseBodySize>0.95</baseBodySize>
+		<!-- 체력 배율 -->
+			<baseHealthScale>1.05</baseHealthScale>
+		<!-- 수명 (인간과 비슷하거나 조금 길게) -->
+			<lifeExpectancy>85</lifeExpectancy>
+		</race>
+		
 		<alienRace>
 
 			<!-- generalSettings: 종족의 기본 능력치, 크기, 수명 등을 설정하는 곳 -->
 			<generalSettings>
-				<!-- 이름 생성 방식 (인간처럼) -->
-				<nameCategory>HumanStandard</nameCategory>
 				<allowHumanBios>true</allowHumanBios>
 				<corpseCategory>CorpsesHumanlike</corpseCategory>
-
 			</generalSettings>
-
-			<!-- 몸 크기 (버섯미소녀 컨셉 → 인간보다 살짝 작게) -->
-			<baseBodySize>0.95</baseBodySize>
-			<!-- 체력 배율 -->
-			<baseHealthScale>1.05</baseHealthScale>
-			<!-- 수명 (인간과 비슷하거나 조금 길게) -->
-			<lifeExpectancy>85</lifeExpectancy>
-
-			<!-- 그래픽 관련 (나중에 이미지 경로 넣을 곳) -->
-			<graphicPaths>
-			</graphicPaths>
-
 
 		</alienRace>
 

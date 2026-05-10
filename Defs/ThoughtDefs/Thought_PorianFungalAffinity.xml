@@ -2,26 +2,26 @@
 <Defs>
 
 	<ThoughtDef>
+
 		<defName>Porian_FungalAffinity</defName>
+
 		<label>균사 지형의 포근함</label>
+
 		<description>발밑이 부드러운 균사로 가득 차 있다. 몸이 가볍고 마음이 편안하다.</description>
 
-		
-		<durationDays>0</durationDays>
-		<stackLimit>1</stackLimit>
 		<workerClass>Porian.ThoughtWorker_FungalAffinity</workerClass>
+
+		<thoughtClass>Thought_Situational</thoughtClass>
 
 		<stages>
 			<li>
-				<label>균사 지형의 포근함</label>
-				<statOffsets>
-					<MoveSpeed>0.22</MoveSpeed>
-					<!-- 22% 증가 -->
-				</statOffsets>
-				<moodOffset>10</moodOffset>
+				<label>포근하다</label>
+				
+				<description>균사 지형 위에 있어 마음이 안정된다.</description>
+				
+				<baseMoodEffect>10</baseMoodEffect>
 			</li>
 		</stages>
-
 
 	</ThoughtDef>
 

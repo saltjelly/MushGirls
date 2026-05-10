@@ -6,6 +6,8 @@
 
 		<!-- defName: 다른 XML(Xenotype, Hediff 등)에서 참조할 때 사용하는 이름 -->
 		<defName>Porian_FungalAffinity</defName>
+		
+		<geneClass>Porian.Gene_PorianFungalAffinity</geneClass>
 
 		<!-- label: 게임 내에 표시되는 유전자 이름 (한글 추천) -->
 		<label>균사 친화력</label>
@@ -22,11 +24,6 @@
 			<!-- 기본 이동속도 약간 감소 (균사 지형 외에서는 불리함) -->
 			<MoveSpeed>-0.08</MoveSpeed>
 		</statOffsets>
-
-		<!-- 특정 생각(Thought) 추가 -->
-		    <thoughts>
-		      <li>Porian_FungalAffinity</li>
-		    </thoughts>            
 
 
 

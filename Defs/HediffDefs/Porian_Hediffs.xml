@@ -7,14 +7,14 @@
 		<description>Fungal gravel 위에서 빠르게 움직이는 버섯 적응 효과.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(0.4, 0.85, 0.35)</defaultLabelColor>
+		<isBad>false</isBad>
 
-		<comps>
-			<li Class="Porian.HediffCompProperties_FungalAffinity" />
-		</comps>
 
 		<stages>
 			<li>
-				<minSeverity>0.9</minSeverity>
+
+				<label>균사 질주</label>
+				
 				<statOffsets>
 					<MoveSpeed>0.30</MoveSpeed>
 				</statOffsets>
