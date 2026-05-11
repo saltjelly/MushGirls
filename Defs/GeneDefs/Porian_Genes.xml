@@ -25,9 +25,23 @@
 			<MoveSpeed>-0.08</MoveSpeed>
 		</statOffsets>
 
-
-
-
 	</GeneDef>
 
+	<!-- 새 버섯갓 유전자 -->
+	<GeneDef>
+
+		<defName>Porian_MushroomCap</defName>
+
+		<geneClass>Porian.Gene_MushroomCap</geneClass>
+
+		<label>버섯갓</label>
+
+		<description>포리안 특유의 거대한 버섯갓. 균사 환경에 반응하여 성장한다.</description>
+
+		<biostatMet>0</biostatMet>
+		<biostatCpx>1</biostatCpx>
+
+	</GeneDef>
+	
+	
 </Defs>

@@ -40,6 +40,10 @@
 
 										<name>MushroomCap</name>
 
+										<conditions>
+											<Gene>Porian_MushroomCap</Gene>
+										</conditions>
+
 										<path>Things/Addons/MushroomCap</path>
 
 										<drawSize>(1.0,1.0)</drawSize>

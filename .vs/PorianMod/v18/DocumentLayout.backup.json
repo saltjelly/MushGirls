@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\source\\hediff_poriantransformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:source\\hediff_poriantransformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\defs\\hediffdefs\\porian_transformation.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:defs\\hediffdefs\\porian_transformation.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\source\\mushroomcapcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:source\\mushroomcapcondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\defs\\thingdefs\\porian_racedef.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:defs\\thingdefs\\porian_racedef.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\defs\\hediffdefs\\porian_hediffs.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:defs\\hediffdefs\\porian_hediffs.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\defs\\genedefs\\porian_genes.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:defs\\genedefs\\porian_genes.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\source\\gene_porianfungalaffinity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:source\\gene_porianfungalaffinity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\mushgirls\\source\\gene_mushroomcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6AD98D7-E81C-E2E1-BD29-1696DADDBC56}|PorianMod.csproj|solutionrelative:source\\gene_mushroomcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Porian_RaceDef.xml",
-              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\ThingDefs\\Porian_RaceDef.xml",
-              "RelativeDocumentMoniker": "Defs\\ThingDefs\\Porian_RaceDef.xml",
-              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\ThingDefs\\Porian_RaceDef.xml",
-              "RelativeToolTip": "Defs\\ThingDefs\\Porian_RaceDef.xml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-05-10T17:14:51.264Z",
+              "Title": "Hediff_PorianTransformation.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Source\\Hediff_PorianTransformation.cs",
+              "RelativeDocumentMoniker": "Source\\Hediff_PorianTransformation.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Source\\Hediff_PorianTransformation.cs",
+              "RelativeToolTip": "Source\\Hediff_PorianTransformation.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T18:24:50.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Porian_Hediffs.xml",
-              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\HediffDefs\\Porian_Hediffs.xml",
-              "RelativeDocumentMoniker": "Defs\\HediffDefs\\Porian_Hediffs.xml",
-              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\HediffDefs\\Porian_Hediffs.xml",
-              "RelativeToolTip": "Defs\\HediffDefs\\Porian_Hediffs.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Title": "Porian_Transformation.xml",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\HediffDefs\\Porian_Transformation.xml",
+              "RelativeDocumentMoniker": "Defs\\HediffDefs\\Porian_Transformation.xml",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\HediffDefs\\Porian_Transformation.xml",
+              "RelativeToolTip": "Defs\\HediffDefs\\Porian_Transformation.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-05-10T16:02:17.091Z",
+              "WhenOpened": "2026-05-11T18:24:21.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Gene_PorianFungalAffinity.cs",
-              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Source\\Gene_PorianFungalAffinity.cs",
-              "RelativeDocumentMoniker": "Source\\Gene_PorianFungalAffinity.cs",
-              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Source\\Gene_PorianFungalAffinity.cs",
-              "RelativeToolTip": "Source\\Gene_PorianFungalAffinity.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCEAAAAyAAAAAAAAAA==",
+              "Title": "MushroomCapCondition.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Source\\MushroomCapCondition.cs",
+              "RelativeDocumentMoniker": "Source\\MushroomCapCondition.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Source\\MushroomCapCondition.cs",
+              "RelativeToolTip": "Source\\MushroomCapCondition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T15:25:32.291Z",
+              "WhenOpened": "2026-05-11T18:21:55.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gene_MushroomCap.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Source\\Gene_MushroomCap.cs",
+              "RelativeDocumentMoniker": "Source\\Gene_MushroomCap.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Source\\Gene_MushroomCap.cs",
+              "RelativeToolTip": "Source\\Gene_MushroomCap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:45:48.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Porian_RaceDef.xml",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\ThingDefs\\Porian_RaceDef.xml",
+              "RelativeDocumentMoniker": "Defs\\ThingDefs\\Porian_RaceDef.xml",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\ThingDefs\\Porian_RaceDef.xml",
+              "RelativeToolTip": "Defs\\ThingDefs\\Porian_RaceDef.xml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-11T17:59:35.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Porian_Genes.xml",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\GeneDefs\\Porian_Genes.xml",
+              "RelativeDocumentMoniker": "Defs\\GeneDefs\\Porian_Genes.xml",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\MushGirls\\Defs\\GeneDefs\\Porian_Genes.xml",
+              "RelativeToolTip": "Defs\\GeneDefs\\Porian_Genes.xml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-11T17:40:13.03Z",
               "EditorCaption": ""
             }
           ]

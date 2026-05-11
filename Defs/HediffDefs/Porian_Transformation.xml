@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<HediffDef>
+		<defName>Porian_Transformation</defName>
+
+		<label>포리안 감염</label>
+
+		<description>몸이 서서히 균사체에 동화되고 있다.</description>
+
+		<hediffClass>Porian.Hediff_PorianTransformation</hediffClass>
+
+		<isBad>true</isBad>
+
+		<stages>
+			<li>
+				<label>균사 침식</label>
+			</li>
+		</stages>
+
+	</HediffDef>
+
+</Defs>
