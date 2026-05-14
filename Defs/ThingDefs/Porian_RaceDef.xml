@@ -31,51 +31,41 @@
 			<generalSettings>
 				<allowHumanBios>true</allowHumanBios>
 				<corpseCategory>CorpsesHumanlike</corpseCategory>
-				
 							<alienPartGenerator>
-
 								<bodyAddons>
-
 									<li>
-
 										<name>MushroomCap</name>
-
 										<conditions>
 											<Gene>Porian_MushroomCap</Gene>
 										</conditions>
-
 										<path>Things/Addons/MushroomCap</path>
-
 										<drawSize>(1.0,1.0)</drawSize>
 
 										<offsets>
-
 											<north>
 												<offset>(0,0.55)</offset>
 											</north>
-
 											<south>
 												<offset>(0,0.55)</offset>
 											</south>
-
 											<east>
 												<offset>(0,0.55)</offset>
 											</east>
-
 										</offsets>
-
 									</li>
-
 								</bodyAddons>
-
 			</alienPartGenerator>
-				
 			</generalSettings>
-
-
-
 		</alienRace>
+
+		<hediffGivers>
+			<li Class="HediffGiver_Constant">
+				<hediff>Porian_Regeneration</hediff>
+				<severity>0.5</severity>
+			</li>
+		</hediffGivers>
 
 	</AlienRace.ThingDef_AlienRace>
 
 </Defs>
+

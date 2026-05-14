@@ -32,6 +32,7 @@
 
 			<!-- 새로 추가 요청: Porian_FungalAffinity (버섯/균사 친화력) -->
 			<li>Porian_FungalAffinity</li>
+			<li>Porian_MushroomCap</li>
 			<!-- 포리안 전용 균사 친화력 (나중에 GeneDef 만들어야 함) -->
 
 			<!-- 환경/생존 관련 -->
@@ -62,7 +63,7 @@
 
 		<!-- 아이콘 경로 (Textures/UI/Xenotypes 폴더에 이미지 넣어야 보임) -->
 		<iconPath>UI/Xenotypes/PorianXenotype</iconPath>
-
 	</XenotypeDef>
+
 
 </Defs>
