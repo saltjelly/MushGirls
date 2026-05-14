@@ -1,63 +1,52 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- 
-  포리안 종족 기본 정의 
-  ParentName="Human" : 인간의 기본 스탯 대부분 물려받음 (초보자에게 추천)
-  -->
+	<!-- 여기서부터 시작 -->
 	<AlienRace.ThingDef_AlienRace ParentName="Human">
 
-		<!-- defName: 종족을 식별하는 핵심 이름 (다른 모드와 겹치지 않게) -->
 		<defName>Porian</defName>
-		<!-- label: 게임 내 표시 이름 (한국어로 하는 걸 추천) -->
 		<label>포리안</label>
-		<!-- description: 종족 설명 -->
 		<description>버섯을 연상시키는 미소녀 외계 종족. 습하고 어두운 환경을 좋아한다.</description>
-		<!-- HAR 핵심 설정 구간 -->
 
 		<race>
-
-			<!-- 몸 크기 (버섯미소녀 컨셉 → 인간보다 살짝 작게) -->
 			<baseBodySize>0.95</baseBodySize>
-		<!-- 체력 배율 -->
 			<baseHealthScale>1.05</baseHealthScale>
-		<!-- 수명 (인간과 비슷하거나 조금 길게) -->
 			<lifeExpectancy>85</lifeExpectancy>
 		</race>
-		
-		<alienRace>
 
-			<!-- generalSettings: 종족의 기본 능력치, 크기, 수명 등을 설정하는 곳 -->
+		<alienRace>
 			<generalSettings>
 				<allowHumanBios>true</allowHumanBios>
 				<corpseCategory>CorpsesHumanlike</corpseCategory>
-							<alienPartGenerator>
-								<bodyAddons>
-									<li>
-										<name>MushroomCap</name>
-										<conditions>
-											<Gene>Porian_MushroomCap</Gene>
-										</conditions>
-										<path>Things/Addons/MushroomCap</path>
-										<drawSize>(1.0,1.0)</drawSize>
 
-										<offsets>
-											<north>
-												<offset>(0,0.55)</offset>
-											</north>
-											<south>
-												<offset>(0,0.55)</offset>
-											</south>
-											<east>
-												<offset>(0,0.55)</offset>
-											</east>
-										</offsets>
-									</li>
-								</bodyAddons>
-			</alienPartGenerator>
+				<alienPartGenerator>
+					<bodyAddons>
+						<!-- 버섯갓 부분 -->
+						<li>
+							<name>MushroomCap</name>
+							<conditions>
+								<Gene>Porian_MushroomCap</Gene>
+							</conditions>
+							<path>Things/Addons/MushroomCap</path>
+							<drawSize>(1.0,1.0)</drawSize>
+							<offsets>
+								<north>
+									<offset>(0,0.55)</offset>
+								</north>
+								<south>
+									<offset>(0,0.55)</offset>
+								</south>
+								<east>
+									<offset>(0,0.55)</offset>
+								</east>
+							</offsets>
+						</li>
+					</bodyAddons>
+				</alienPartGenerator>
 			</generalSettings>
 		</alienRace>
 
+		<!-- ✅ HediffGivers는 여기 (AlienRace.ThingDef_AlienRace 직속) -->
 		<hediffGivers>
 			<li Class="HediffGiver_Constant">
 				<hediff>Porian_Regeneration</hediff>
@@ -68,4 +57,3 @@
 	</AlienRace.ThingDef_AlienRace>
 
 </Defs>
-
